@@ -1,0 +1,6 @@
+[book]
+authors = []
+description = "The example book covers examples."
+multilingual = false
+src = "src"
+title = "Docker Deep Dive"
