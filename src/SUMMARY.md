@@ -5,7 +5,7 @@
 # Module 1
 
 - [Topic](chapter_1.md)
-  - [What is Containerization](module-1/1.1-what-is-containerization.md)
+  - [What is Containerization](module-1/what-is-containerization.md)
   - [VMs vs Docker](module-1/vms-vs-docker.md)
   - [Introduction to Docker](module-1/introduction.md)
   - [Docker architecture](module-1/architecture.md)
