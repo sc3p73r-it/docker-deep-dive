@@ -77,4 +77,4 @@ sudo systemctl enable docker
 
 ယခုရေးသားထားသော installation method များသည် docker official documentation ကနေ reference ယူထားခြင်းပဲဖြစ်ပါသည်။ Documentation မှ တိုက်ရိုက်ကြည့်ပြီး Install လုပ်ချင်လျှင်လည်း လုပ်လို့ရအောင် Official Documentation Link လဲထည့်ပေးထားပါတယ်။
 
-*Official Documentation Link*: [Insall Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+*Official Documentation Link*: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
