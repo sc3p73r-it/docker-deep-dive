@@ -75,6 +75,6 @@ sudo systemctl enable docker
 ```
 ဒီ Method ကတော့ Testing Environemnts အတွက်အသုံးပြုချင်ရင်တော့ quick setup အနေနဲ့အသုံးပြုလို့ရမည်ဖြစ်ပြီးတော့ production environments အတွက်အသုံးပြုချင်ရင်တော့ manual installation method ကိုသာရွေးချယ်အသုံးပြုဖို့ အကြံပေးချင်ပါတယ် ခင်ဗျာ။
 
-ယခုရေးထားသော command များသည် docker official documentation ကနေ reference ယူထားခြင်းပဲဖြစ်ပါသည်။ Documentation မှ တိုက်ရိုက်ကြည့်ပြီး Install လုပ်ချင်လျှင်လည်း လုပ်လို့ရအောင် Official Documentation Link လဲထည့်ပေးထားပါတယ်။
+ယခုရေးသားထားသော installation method များသည် docker official documentation ကနေ reference ယူထားခြင်းပဲဖြစ်ပါသည်။ Documentation မှ တိုက်ရိုက်ကြည့်ပြီး Install လုပ်ချင်လျှင်လည်း လုပ်လို့ရအောင် Official Documentation Link လဲထည့်ပေးထားပါတယ်။
 
-*Official Documentation Link*: [Insall Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+*Official Documentation Link*: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
