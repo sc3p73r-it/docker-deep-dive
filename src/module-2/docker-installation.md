@@ -13,18 +13,23 @@ Docker Engine မှာဆိုရင် CE နဲ့ EE ဆိုပြီး�
 
 Docker Engine ကို Installation မလုပ်ခင် လိုအပ်တဲ့ Requirement တွေကို Check ချင်ရင်တော့အောက်ကပေးထားတဲ့ link မှာသွားပြီး check နိုင်ပါတယ်။
 
-[Prerequisites](https://docs.docker.com/engine/install/ubuntu/#prerequisites)
+**Check** [Prerequisites](https://docs.docker.com/engine/install/ubuntu/#prerequisites)
 
 ## Installation methods
 Docker Engine ကို Installation လုပ်ဖို့အတွက် methods တွေကတော့ 
-- Docker Desktop for Linux
+- Docker Desktop
 - Install Docker Engine from Docker's 'apt' repository
-- Install it manually
 - convenience script (Only recommended for testing and development environments) 
   
-ဆိုပြီးရှိပါတယ်။ ကျွန်တော်ကတော့ဒီစာအုပ်မှာ apt repository ကနေ docker engine ကို installation လုပ်ပြသွားမှာပဲဖြစ်ပါတယ်။
+ဆိုပြီးရှိပါတယ်။ 
 
-## Install using the **apt** repository
+## Method 1: Docker Desktop
+Docker Desktop ကိုတော့ Mac နဲ့ Windows environment တွေမှာ အလွယ်တကူ Installation ပြုလုပ်ပြီးအသုံးပြုနိုင်အောင်ဖန်တီးထားခြင်းဖြစ်ပါသည်။ Docker Desktop ထဲမှာဆိုရင် Docker Engine, Docker CLI client, Docker Compose, Dcoker Content Trust, Kubernetes စသဖြင့်ပါဝင်ပြီးသားဖြစ်ပြီး Installation ပြုလုပ်ပြီးတာနဲ့အဆင်သင့် အသုံးပြုလို့ရအောင် ပြုလုပ်ထားခြင်းပဲဖြစ်ပါတယ်။
+
+Docker Desktop ကို အသုံးပြုချင်ရင်တော့ အောက်ပါ link မှာသွားရောက် download ဆွဲယူနိုင်ပါတယ်။ 
+website: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+
+## Method 2: Install using the **apt** repository
 
 1. Setup Docker's apt repository.
 ```
@@ -56,7 +61,20 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 sudo docker run hello-world
 ```
-ယခုရေးထားသော command များသည် docker official documentation ကနေ reference ယူထားခြင်းပဲဖြစ်ပါသည်။ docker installation လုပ်သည့်အခါ official documentation ကိုပဲကြည့်ပြီး install လုပ်ဖို့အတွက် အကြံပေးချင်ပါတယ်။
+## Method 3: Convenience Script
+Convenience Script ဆိုတာကတော့ သက်ဆိုင်ရာ linux distro အလိုက်ကို docker က provides လုပ်ပေးထားတဲ့ script နဲ့ automatically detects လုပ်ပြီးတော့ docker ကို install ပြုလုပ်ခြင်းပဲဖြစ်ပါတယ်။
 
-*Official Documentation Link*
-[Insall Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+#### Docker Installation Script:
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+```
+#### Enable Docker to start on boot
+```
+sudo systemctl enable docker
+```
+ဒီ Method ကတော့ Testing Environemnts အတွက်အသုံးပြုချင်ရင်တော့ quick setup အနေနဲ့အသုံးပြုလို့ရမည်ဖြစ်ပြီးတော့ production environments အတွက်အသုံးပြုချင်ရင်တော့ manual installation method ကိုသာရွေးချယ်အသုံးပြုဖို့ အကြံပေးချင်ပါတယ် ခင်ဗျာ။
+
+ယခုရေးထားသော command များသည် docker official documentation ကနေ reference ယူထားခြင်းပဲဖြစ်ပါသည်။ Documentation မှ တိုက်ရိုက်ကြည့်ပြီး Install လုပ်ချင်လျှင်လည်း လုပ်လို့ရအောင် Official Documentation Link လဲထည့်ပေးထားပါတယ်။
+
+*Official Documentation Link*: [Insall Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
