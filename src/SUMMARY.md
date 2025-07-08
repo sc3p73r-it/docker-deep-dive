@@ -1,7 +1,6 @@
 # Summary
 [Cover](cover.md) 
 
-
 [What is Containerization](module-1/what-is-containerization.md)
 [VMs vs Docker](module-1/vms-vs-docker.md)
 [Introduction to Docker](module-1/introduction.md)
@@ -20,6 +19,7 @@
 [Creating and managing containers](module-3/manage-container.md)
 [Container lifecycle commands](module-3/container-lifecycle.md)
   
+
 
 
 [Anatomy of a Dockerfile](module-4/anatomy-of-dockerfile.md)
