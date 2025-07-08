@@ -1,7 +1,7 @@
 # Summary
 
 [Course Outline] (README.md)
-  
+- [Book Cover](cover.md) 
 # Module 1: Introduction to Docker
  - [Book Intro](module-1/intro.md)
     - [What is Containerization](module-1/what-is-containerization.md)
